@@ -28,11 +28,11 @@ document.addEventListener("DOMContentLoaded", function () {
           var startDate = "";
           var endDate = "";
           do {
-            startDate = prompt("Enter a start date in the format (YYYY-MM-DD)");
+            startDate = prompt("Enter a start date in the format (YYYYMMDD)");
           } while (startDate === "");
 
           do {
-            endDate = prompt("Enter an end date in the format (YYYY-MM-DD)");
+            endDate = prompt("Enter an end date in the format (YYYYMMDD)");
           } while (endDate === "");
 
           let i = 0;
